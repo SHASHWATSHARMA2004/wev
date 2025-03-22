@@ -1,0 +1,30 @@
+nav {
+  display: flex;
+  justify-content: flex-end; /* Moves links to the right */
+  align-items: center;
+ 
+  padding: 15px 20px;
+}
+nav ul {
+ display: flex;
+ list-style: none;
+  gap: 20px; /* Space between links */
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(235, 223, 223);
+  font-weight: bold;
+  font-style:normal;
+}
+h1,p{
+  text-align: center;
+  
+}
+.container{
+  position: relative;
+  text-align: center;
+  color: white;
+  background-image: url('https://t3.ftcdn.net/jpg/01/77/76/00/360_F_177760086_h8GOXKNavzNKmfAH6OLvHOXDnpMtJbOr.jpg');
+  background-size: 1500px;
+}
